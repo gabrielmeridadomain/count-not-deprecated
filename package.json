@@ -1,0 +1,23 @@
+{
+ "name": "deprecate-packages",
+ "version": "1.0.0",
+ "description": "Small script to deprecate NPM packages",
+ "scripts": {
+  "start": "node src/index.js"
+ },
+ "author": "Gabriel Mérida <gabriel.merida@domain.com.au>",
+ "license": "ISC",
+ "dependencies": {
+  "libnpm": "^3.0.1",
+  "lodash": "^4.17.15",
+  "node-fetch": "^2.6.0",
+  "pacote": "^11.1.4"
+ },
+ "devDependencies": {
+  "@domain-group/eslint-config-domain": "^9.1.1",
+  "eslint": "^6.8.0"
+ },
+ "eslintConfig": {
+  "extends": "@domain-group/eslint-config-domain/server"
+ }
+}
